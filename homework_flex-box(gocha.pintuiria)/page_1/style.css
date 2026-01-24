@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    width: 1229px;
+    height: 671px;
+    background-color: rgba(38, 37, 37, 1);
+    border-radius: 24px;
+    gap: 5px;
+}
+
+.group {
+    width: 96px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 30px 0 0 0;
+    align-items: center;
+}
+
+section {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.logo {
+    width: 28px;
+}
+.wrapper_resurse {
+    display: flex;
+    width: 809px;
+    justify-content: space-between;
+}
+.author {
+    display: flex;
+    width: 100%;
+}
+.box_resurs {
+    display: flex;
+    width: 245px;
+    height: 153px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 20px;
+}
+
+.wrapper_cards {
+    position: relative;
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+    width: 295.5px;
+    height: 310px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.card {
+    width: 218px;
+    height: 251px;
+    border-radius: 36px;
+}
+
+.violet_card {
+    background: linear-gradient(136.58deg, #7B20E2 0%, #2B1043 101.73%);
+    position: absolute;
+    z-index: 3;
+}
+
+.yellow_card {
+    background: rgba(198, 142, 60, 1);
+    transform: rotate(16.56deg);
+    position: absolute;
+    bottom: 5px;
+    z-index: 2;
+}
+
+.green_card {
+    background: rgba(47, 132, 127, 1);
+    transform: rotate(34deg);
+    position: absolute;
+    bottom: 4px;
+    z-index: 1;
+}
+
+.wrapper_my_favorite {
+    width: 809px;
+    height: 195px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 36px;
+}
+
+.wrapper_volume {
+    display: flex;
+    width: 809px;
+    height: 195px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 36px;
+}
+
+.wrapper_right_side {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    width: 258px;
+    gap: 90px;
+}
+
+.wrapper_favorite {
+    width: 258px;
+    height: 273px;
+    margin-bottom: 20px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 36px;
+}
